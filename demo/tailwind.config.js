@@ -5,8 +5,6 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -57,9 +55,15 @@ module.exports = {
           4: "hsl(var(--chart-4))",
           5: "hsl(var(--chart-5))",
         },
-      },
-      fontFamily: {
-        roboto: "var(--font-roboto)",
+        purple: {
+          primary: '#9b87f5',
+          secondary: '#7E69AB',
+          tertiary: '#6E59A5',
+          dark: '#1A1F2C',
+          light: '#D6BCFA',
+          soft: '#E5DEFF',
+          vivid: '#8B5CF6',
+        }
       },
     },
   },
